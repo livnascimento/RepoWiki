@@ -1,0 +1,120 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+section {
+  margin-top: 2rem;
+  margin-right: 5rem;
+  width: 60%;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.profile img {
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.profile-text {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.repoList {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.repoList h2 {
+  margin-bottom: 2rem;
+}
+
+.bg-image {
+  position: absolute;
+  width: 80vw;
+  height: 80vh;
+  left: -15%;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid #999999;
+  border-radius: 1rem;
+  color: #999999;
+  height: 2rem;
+  width: 55em;
+  padding-left: 1rem;
+}
+
+@media (max-width: 425px) {
+  input {
+    width: 25em;
+    margin: 1rem auto;
+  }
+}
+@media (max-width: 320px) {
+  input {
+    width: 20em;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    margin: 3rem auto;
+    width: auto;
+  }
+  .content {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .search {
+    flex-direction: column;
+  }
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-text {
+    margin-right: 1rem;
+  }
+  .repo-container {
+    margin: 1rem 2rem;
+  }
+  .repo-text,
+  a {
+    margin: 1rem 1.5rem;
+  }
+  .bg-image {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-image {
+    height: 80vh;
+    width: 80vw;
+    left: -30%;
+    top: 10%;
+  }
+}

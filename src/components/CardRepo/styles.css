@@ -1,0 +1,26 @@
+.repo-container {
+  width: 100%;
+  height: fit-content;
+  text-align: start;
+  margin: 1rem;
+}
+
+.repo-text {
+    margin: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+  color: #539bf5;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .repo-text,
+  strong {
+    margin: 1rem 1.5rem;
+  }
+}

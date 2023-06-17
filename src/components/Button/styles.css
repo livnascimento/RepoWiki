@@ -1,0 +1,16 @@
+button {
+    background: #2D333B;
+    border: 1px solid #999999;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 0.55rem 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+    button {
+        margin: 1rem auto;
+        width: 25em;
+    }
+}
