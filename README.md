@@ -1,6 +1,6 @@
 # GitHub Profile Explorer
 
-O REpoWiki é uma aplicação web que permite explorar perfis de usuários no GitHub. Com esta aplicação, você pode pesquisar usuários, 
+O RepoWiki é uma aplicação web que permite explorar perfis de usuários no GitHub. Com esta aplicação, você pode pesquisar usuários, 
 visualizar informações de seus perfis e ver a lista de seus respectivos repositórios.
 
 ![image](https://github.com/livnascimento/repowiki/assets/51425339/d7894f1d-e3f2-4b35-aad9-38207b36c371)
